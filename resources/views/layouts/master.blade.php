@@ -39,6 +39,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/pages/kategori') }}">Kategori</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/pages/tag') }}">Tag</a>
+                    </li>
                 </ul>
             </div>
         </div>
