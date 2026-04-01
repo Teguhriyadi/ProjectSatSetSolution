@@ -17,7 +17,7 @@
 
     <div class="card mt-3">
         <div class="card-header">
-            <button type="button" class="btn btn-primary btn-sm text-uppercase" data-bs-toggle="modal"
+            <button type="button" class="btn btn-primary btn-sm text-uppercase mt-2 mb-2" data-bs-toggle="modal"
                 data-bs-target="#exampleModal">
                 Tambah Data
             </button>
