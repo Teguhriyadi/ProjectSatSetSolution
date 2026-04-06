@@ -192,7 +192,7 @@
                     <div class="text-center mt-5 p-4 bg-light rounded-4 shadow-sm">
                         <h5 class="fw-bold">Butuh Website / Aplikasi?</h5>
                         <p class="text-muted small">Kami siap bantu bisnis kamu 🚀</p>
-                        <a href="/contact" class="btn btn-primary">Konsultasi Gratis</a>
+                        <a href="{{ url('/#faq') }}" class="btn btn-primary">Konsultasi Gratis</a>
                     </div>
 
                 </div>

@@ -16,6 +16,11 @@ class AppController extends Controller
         return view("landing-page.master", $data);
     }
 
+    public function dashboard()
+    {
+        return view("modules.dashboard");
+    }
+
     public function show($slug)
     {
         $blog = Post::with([

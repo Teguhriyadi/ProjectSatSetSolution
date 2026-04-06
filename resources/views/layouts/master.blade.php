@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        CMS Dashboard SatSet - @stack("title")
+        CMS Dashboard SatSet - @stack('title')
     </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -34,20 +34,37 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="{{ url('/pages/dashboard') }}">
+                        <a class="nav-link {{ Request::is('pages/dashboard') ? 'active' : '' }}" aria-current="page"
+                            href="{{ url('/pages/dashboard') }}">
                             Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/pages/kategori') }}">Kategori</a>
+                        <a class="nav-link {{ Request::is('pages/kategori') ? 'active' : '' }}"
+                            href="{{ url('/pages/kategori') }}">
+                            Kategori
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/pages/tag') }}">Tag</a>
+                        <a class="nav-link {{ Request::is('pages/tag') ? 'active' : '' }}"
+                            href="{{ url('/pages/tag') }}">
+                            Tag
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/pages/blog') }}">Blog</a>
+                        <a class="nav-link {{ Request::is('pages/blog') ? 'active' : '' }}"
+                            href="{{ url('/pages/blog') }}">
+                            Blog
+                        </a>
                     </li>
                 </ul>
+
+                <form action="{{ url('/pages/logout') }}" method="POST" class="d-flex">
+                    @csrf
+                    <button type="submit" onclick="return confirm('Yakin ? Ingin Logout Dari Dashboard Ini?')" class="btn btn-outline-light btn-sm">
+                        Logout
+                    </button>
+                </form>
             </div>
         </div>
     </nav>
