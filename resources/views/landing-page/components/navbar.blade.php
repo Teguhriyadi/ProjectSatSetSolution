@@ -15,32 +15,32 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#home">
+                    <a class="nav-link active" href="{{ url('/#home') }}">
                         <i class="bi bi-house-door"></i> Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#tentang">
+                    <a class="nav-link" href="{{ url('#tentang') }}">
                         <i class="bi bi-info-circle"></i> Tentang
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#blog">
+                    <a class="nav-link" href="{{ url('/#blog') }}">
                         <i class="bi bi-journal-text"></i> Blog
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#paket">
+                    <a class="nav-link" href="{{ url('#paket') }}">
                         <i class="bi bi-tags"></i> Paket
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#testimoni">
+                    <a class="nav-link" href="{{ url('#testimoni') }}">
                         <i class="bi bi-chat-quote"></i> Testimoni
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#faq">
+                    <a class="nav-link" href="{{ url('/#faq') }}">
                         <i class="bi bi-question-circle"></i> FAQ
                     </a>
                 </li>
