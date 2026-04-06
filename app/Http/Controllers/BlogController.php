@@ -30,7 +30,7 @@ class BlogController extends Controller
 
     public function store(Request $request)
     {
-        $fileName = ImageHelper::uploadBase64ToS3($request->gambar);
+        $fileName = ImageHelper::uploadFileToS3($request->file("gambar"));
 
         $blog = Post::create([
             "title" => $request->title,

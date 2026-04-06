@@ -7,21 +7,16 @@ use Intervention\Image\Facades\Image;
 
 class ImageHelper
 {
-    public static function uploadBase64ToS3($base64Image, $folder = 'satsetsolution-image', $maxWidth = 800, $quality = 70)
+    public static function uploadFileToS3($file, $folder = 'satsetsolution-image')
     {
-        if (!$base64Image) return null;
-
-        $imageData = preg_replace('#^data:image/\w+;base64,#i', '', $base64Image);
-        $imageData = base64_decode($imageData);
-
         $filename = uniqid('img_') . '.jpg';
 
-        $image = Image::make($imageData)
-            ->resize($maxWidth, null, function ($constraint) {
+        $image = Image::make($file)
+            ->resize(800, null, function ($constraint) {
                 $constraint->aspectRatio();
                 $constraint->upsize();
             })
-            ->encode('jpg', $quality);
+            ->encode('jpg', 70);
 
         Storage::disk('s3')->put(
             $folder . '/' . $filename,
