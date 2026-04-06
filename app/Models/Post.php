@@ -18,4 +18,19 @@ class Post extends Model
     public $incrementing = false;
 
     public $primaryKey = "id";
+
+    public function category()
+    {
+        return $this->belongsTo(PostCategory::class, "id", "post_id");
+    }
+
+    public function tags()
+    {
+        return $this->hasMany(PostTag::class, "post_id", "id");
+    }
+
+    public function postCategories()
+    {
+        return $this->hasMany(PostCategory::class, "post_id", "id");
+    }
 }

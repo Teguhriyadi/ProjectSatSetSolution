@@ -18,4 +18,9 @@ class PostCategory extends Model
     public $incrementing = false;
 
     public $primaryKey = "id";
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class, "category_id");
+    }
 }

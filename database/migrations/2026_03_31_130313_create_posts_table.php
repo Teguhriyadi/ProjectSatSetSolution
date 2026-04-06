@@ -17,6 +17,9 @@ return new class extends Migration
             $table->string("slug", 150);
             $table->longText("content");
             $table->uuid("user_id", 50);
+            $table->dateTime("published_at")->nullable();
+            $table->enum("is_active", ["1", "0"])->default("1");
+            $table->string("gambar")->nullable();
             $table->timestamps();
         });
     }

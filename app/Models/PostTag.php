@@ -18,4 +18,11 @@ class PostTag extends Model
     public $incrementing = false;
 
     public $primaryKey = "id";
+
+    public $timestamps = false;
+
+    public function tag()
+    {
+        return $this->belongsTo(Tag::class, "tag_id", "id");
+    }
 }

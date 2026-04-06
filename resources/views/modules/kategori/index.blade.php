@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@push("title", "Kategori")
+
 @push('content')
     <h4 class="title">
         Data Kategori

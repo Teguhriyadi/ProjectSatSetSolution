@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@push("title", "Tag")
+
 @push('content')
     <h4 class="title">
         Data Tag
