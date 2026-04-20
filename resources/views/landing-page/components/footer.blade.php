@@ -5,16 +5,15 @@
             <div class="col-lg-4 col-md-6">
                 <h4 class="fw-bold mb-3">SatSetSolution</h4>
                 <p class="text-white-50">
-                    SatSetSolution adalah layanan jasa digital yang fokus membantu
-                    mahasiswa, UMKM, dan startup dalam pembuatan website, aplikasi,
-                    serta pengerjaan skripsi & tugas akhir.
+                    SatSetSolution adalah layanan jasa digital yang membantu
+                    UMKM, perusahaan, dan personal dalam pembuatan website,
+                    aplikasi, serta sistem digital sesuai kebutuhan.
                 </p>
                 <p class="text-white-50">
-                    Fast respon, aman, transparan, dan mahasiswa friendly.
+                    Kami mengutamakan kecepatan, kualitas, dan transparansi dalam setiap project.
                 </p>
                 <p class="text-white-50 small mt-3">
-                    Jasa website, aplikasi, dan skripsi online terpercaya untuk
-                    mahasiswa di Indonesia.
+                    Jasa website dan aplikasi profesional yang fleksibel untuk berbagai kebutuhan digital di Indonesia.
                 </p>
             </div>
 
@@ -34,25 +33,35 @@
             <div class="col-lg-4 col-md-12">
                 <h5 class="fw-bold mb-3">Ikuti Kami</h5>
                 <p class="text-white-50">
-                    Follow kami untuk update promo, project, dan tips seputar website
-                    & skripsi.
+                    Dapatkan update seputar project, tips digital, dan promo terbaru dari kami.
                 </p>
 
                 <div class="d-flex gap-3 fs-4 mt-3">
-                    <a target="_blank" href="https://wa.me/6281214707143" rel="noopener noreferrer"
-                        aria-label="WhatsApp SatSetSolution" class="footer-icon wa">
+                    <a target="_blank" href="https://wa.me/6281214707143"
+                        rel="noopener noreferrer"
+                        aria-label="WhatsApp SatSetSolution"
+                        class="footer-icon wa">
                         <i class="bi bi-whatsapp"></i>
                     </a>
-                    <a target="_blank" href="https://www.instagram.com/ilham_teguhriyadi/" rel="noopener noreferrer"
-                        aria-label="Instagram SatSetSolution" class="footer-icon ig">
+
+                    <a target="_blank" href="https://www.instagram.com/ilham_teguhriyadi/"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram SatSetSolution"
+                        class="footer-icon ig">
                         <i class="bi bi-instagram"></i>
                     </a>
-                    <a target="_blank" href="https://x.com/HameTR29" rel="noopener noreferrer"
-                        aria-label="X (Twitter) SatSetSolution" class="footer-icon tw">
+
+                    <a target="_blank" href="https://x.com/HameTR29"
+                        rel="noopener noreferrer"
+                        aria-label="X (Twitter) SatSetSolution"
+                        class="footer-icon tw">
                         <i class="bi bi-twitter"></i>
                     </a>
-                    <a target="_blank" href="mailto:ilham.teguh55@gmail.com" rel="noopener noreferrer"
-                        aria-label="Email SatSetSolution" class="footer-icon mail">
+
+                    <a target="_blank" href="mailto:ilham.teguh55@gmail.com"
+                        rel="noopener noreferrer"
+                        aria-label="Email SatSetSolution"
+                        class="footer-icon mail">
                         <i class="bi bi-envelope"></i>
                     </a>
                 </div>
