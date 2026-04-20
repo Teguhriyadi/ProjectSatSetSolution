@@ -6,11 +6,11 @@
                 <span class="contact-badge mb-3">💬 Kontak Kami</span>
                 <h2 class="fw-bold mb-3">
                     Masih Bingung?<br />
-                    Ngobrol Dulu Aja 👋
+                    Konsultasi Dulu Aja 👋
                 </h2>
                 <p class="text-muted">
-                    Konsultasi <strong>GRATIS</strong> tanpa komitmen. Ceritain
-                    kebutuhan kamu, nanti kami bantu cari solusi terbaik.
+                    Konsultasi <strong>GRATIS</strong> tanpa komitmen. Ceritakan kebutuhan kamu,
+                    mulai dari website, aplikasi, hingga sistem digital — kami bantu cari solusi terbaik.
                 </p>
 
                 <ul class="list-unstyled mt-4 contact-list">
@@ -24,7 +24,7 @@
                     </li>
                     <li>
                         <i class="bi bi-check-circle-fill"></i>
-                        Cocok buat mahasiswa & UMKM
+                        Cocok untuk bisnis, kampus, maupun personal
                     </li>
                 </ul>
 
@@ -44,28 +44,24 @@
             <!-- KANAN : CARD -->
             <div class="col-lg-7" data-aos="zoom-in">
                 <div class="contact-card p-4 p-lg-5">
-                    <h4 class="fw-bold mb-3">🚀 Siap Mulai Sekarang?</h4>
+                    <h4 class="fw-bold mb-3">🚀 Siap Mulai Project?</h4>
                     <p class="text-muted mb-4">
-                        Klik WhatsApp atau isi form singkat di bawah. Kami akan respon
-                        secepat mungkin.
+                        Klik WhatsApp atau isi form singkat di bawah. Tim kami akan segera menghubungi kamu.
                     </p>
 
                     <form id="contactForm" autocomplete="on">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <label for="contactName" class="form-label visually-hidden">Nama</label>
                                 <input id="contactName" name="name" type="text" class="form-control"
-                                    placeholder="Nama kamu" autocomplete="name" required />
+                                    placeholder="Nama" autocomplete="name" required />
                             </div>
                             <div class="col-md-6">
-                                <label for="contactWhatsapp" class="form-label visually-hidden">WhatsApp</label>
                                 <input id="contactWhatsapp" name="whatsapp" type="tel" class="form-control"
-                                    placeholder="No WhatsApp aktif" autocomplete="tel" inputmode="tel" required />
+                                    placeholder="No WhatsApp aktif" autocomplete="tel" required />
                             </div>
                             <div class="col-12">
-                                <label for="contactMessage" class="form-label visually-hidden">Kebutuhan</label>
                                 <textarea id="contactMessage" name="message" rows="4" class="form-control"
-                                    placeholder="Ceritain kebutuhan kamu..." required></textarea>
+                                    placeholder="Ceritakan kebutuhan / project kamu..." required></textarea>
                             </div>
                         </div>
 
@@ -74,7 +70,7 @@
                         </button>
 
                         <small class="d-block text-center text-muted mt-3">
-                            *Kami tidak menyimpan data kamu
+                            *Data kamu aman & tidak disebarkan
                         </small>
                     </form>
                 </div>
@@ -84,35 +80,46 @@
 </section>
 
 <section class="container py-5">
-    <h2 class="fw-bold">Jasa Skripsi & Website Mahasiswa Terpercaya di Indonesia</h2>
+    <h2 class="fw-bold">
+        Jasa Website, Aplikasi & Sistem Digital Profesional di Indonesia
+    </h2>
+
     <p>
-        SatSetSolution adalah jasa skripsi terpercaya dan jasa website mahasiswa
-        yang membantu pengerjaan tugas akhir, aplikasi kampus, hingga website bisnis.
-        Kami melayani seluruh Indonesia dengan sistem online dan fast respon.
+        SatSetSolution adalah penyedia jasa pembuatan website, aplikasi, dan sistem digital
+        yang membantu <strong>UMKM, perusahaan, mahasiswa, hingga personal brand</strong>
+        dalam mengembangkan kebutuhan digital secara cepat, rapi, dan profesional.
     </p>
+
     <p>
-        Jika kamu mencari jasa skripsi murah, jasa website mahasiswa, atau jasa aplikasi terpercaya,
-        SatSetSolution siap membantu dengan harga mahasiswa dan revisi fleksibel.
+        Kami melayani berbagai kebutuhan mulai dari landing page, company profile,
+        aplikasi custom, hingga sistem internal bisnis. Semua dikerjakan dengan
+        proses yang transparan, fleksibel, dan bisa disesuaikan dengan kebutuhan.
     </p>
+
     <div class="row g-3 mt-3">
         <div class="col-md-4">
             <div class="card h-100 p-4">
                 <h3 class="h5 fw-bold">Jasa Website</h3>
-                <p class="text-muted mb-0">Landing page, company profile, sampai web custom sesuai kebutuhan.
+                <p class="text-muted mb-0">
+                    Landing page, company profile, hingga website custom untuk bisnis dan personal.
                 </p>
             </div>
         </div>
+
         <div class="col-md-4">
             <div class="card h-100 p-4">
                 <h3 class="h5 fw-bold">Jasa Aplikasi</h3>
-                <p class="text-muted mb-0">Aplikasi kampus & sistem internal dengan fitur yang bisa request.
+                <p class="text-muted mb-0">
+                    Sistem aplikasi berbasis web untuk operasional bisnis maupun kebutuhan kampus.
                 </p>
             </div>
         </div>
+
         <div class="col-md-4">
             <div class="card h-100 p-4">
-                <h3 class="h5 fw-bold">Jasa Skripsi</h3>
-                <p class="text-muted mb-0">Bantuan laporan, tugas akhir, dan mentoring revisi secara fleksibel.
+                <h3 class="h5 fw-bold">Jasa Sistem Custom</h3>
+                <p class="text-muted mb-0">
+                    Pembuatan sistem sesuai kebutuhan, mulai dari dashboard hingga integrasi data.
                 </p>
             </div>
         </div>

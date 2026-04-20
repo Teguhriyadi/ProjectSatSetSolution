@@ -5,7 +5,7 @@
             <span class="about-badge">👋 Tentang Kami</span>
             <h2 class="fw-bold mt-3">Kenalan Dulu Sama SatSetSolution</h2>
             <p class="text-muted">
-                Biar nggak cuma “katanya”, tapi beneran kenal 😎
+                Partner digital yang siap bantu berbagai kebutuhan kamu 🚀
             </p>
         </div>
 
@@ -14,7 +14,9 @@
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="about-image">
                     <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
-                        alt="Jasa Skripsi Terpercaya Indonesia" class="img-fluid rounded-4 shadow" loading="lazy"
+                        alt="Jasa Website dan Aplikasi Profesional Indonesia"
+                        class="img-fluid rounded-4 shadow"
+                        loading="lazy"
                         decoding="async" />
                 </div>
             </div>
@@ -22,18 +24,18 @@
             <!-- KANAN : CONTENT -->
             <div class="col-lg-6" data-aos="fade-left">
                 <h3 class="fw-bold mb-3">
-                    Solusi Digital Cepat, Aman & Mahasiswa Friendly
+                    Solusi Digital Cepat, Aman & Profesional
                 </h3>
 
                 <p class="text-muted">
-                    <strong>SatSetSolution adalah jasa skripsi dan jasa website mahasiswa</strong>
-                    yang fokus membantu pengerjaan tugas akhir, laporan, dan aplikasi kampus
-                    dengan sistem fast respon dan harga mahasiswa.
+                    <strong>SatSetSolution adalah jasa pembuatan website, aplikasi, dan sistem digital</strong>
+                    yang membantu <strong>UMKM, perusahaan, mahasiswa, hingga personal brand</strong>
+                    dalam mewujudkan kebutuhan digital secara cepat dan rapi.
                 </p>
 
                 <p class="text-muted">
-                    Kami hadir buat kamu yang butuh website, aplikasi, atau bantuan skripsi
-                    <u>tanpa ribet</u>. Dari diskusi, pengerjaan, revisi, sampai siap dikumpulin.
+                    Mulai dari konsultasi, desain, development, hingga revisi —
+                    semua kami handle dengan proses yang <u>simple, transparan, dan tanpa ribet</u>.
                 </p>
 
                 <!-- POINT -->
@@ -42,15 +44,15 @@
                         <span>🚀</span>
                         <div>
                             <strong>Fast Respon</strong>
-                            <p>Chat dibalas cepat, nggak PHP.</p>
+                            <p>Tim responsif & siap bantu kapan pun dibutuhkan.</p>
                         </div>
                     </div>
 
                     <div class="point">
-                        <span>🎓</span>
+                        <span>💼</span>
                         <div>
-                            <strong>Mahasiswa Friendly</strong>
-                            <p>Harga masuk akal & bisa diskusi santai.</p>
+                            <strong>Fleksibel untuk Semua</strong>
+                            <p>Cocok untuk bisnis, kampus, maupun kebutuhan personal.</p>
                         </div>
                     </div>
 
@@ -58,7 +60,7 @@
                         <span>🔄</span>
                         <div>
                             <strong>Revisi Fleksibel</strong>
-                            <p>Bukan sekali jadi lalu ditinggal.</p>
+                            <p>Kami pastikan hasil sesuai dengan kebutuhan kamu.</p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +70,8 @@
                     <a href="#paket" class="btn btn-glow"> Lihat Paket </a>
                     <a target="_blank"
                         href="https://wa.me/6281214707143?text=Halo%20SatSetSolution,%20boleh%20kenalan%20lebih%20lanjut?"
-                        rel="noopener noreferrer" class="btn btn-outline-primary rounded-pill px-4">
+                        rel="noopener noreferrer"
+                        class="btn btn-outline-primary rounded-pill px-4">
                         Chat Admin
                     </a>
                 </div>

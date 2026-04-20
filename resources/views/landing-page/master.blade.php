@@ -9,17 +9,17 @@
                 <!-- KIRI : TEXT -->
                 <div class="col-lg-6 text-white" data-aos="fade-right">
                     <span class="hero-badge mb-3">
-                        🚀 Jasa Digital Mahasiswa Friendly
+                        🚀 Jasa Digital untuk Semua Kebutuhan
                     </span>
 
                     <h1 class="hero-title mt-3">
-                        Website • Aplikasi • Skripsi <br />
+                        Website • Aplikasi • Sistem Digital <br />
                         <span>SatSet Beres!</span>
                     </h1>
 
                     <p class="hero-desc mt-3">
-                        Cocok buat kamu yang <strong>kejar deadline</strong>, butuh hasil
-                        rapi, dan nggak mau ribet. Tinggal cerita, kami yang beresin 😎
+                        Cocok untuk <strong>UMKM, perusahaan, mahasiswa, maupun personal</strong> yang butuh solusi digital cepat, rapi, dan profesional.
+                        Tinggal cerita kebutuhanmu, kami yang beresin 😎
                     </p>
 
                     <div class="hero-cta mt-4 d-flex gap-3 flex-wrap">
@@ -36,7 +36,7 @@
                     <div class="hero-trust mt-4">
                         <span>⭐ 4.9/5 Rating</span>
                         <span>🔥 150+ Project Beres</span>
-                        <span>🎓 Mahasiswa Friendly</span>
+                        <span>🎓 UMKM & Perusahaan</span>
                     </div>
                 </div>
 
