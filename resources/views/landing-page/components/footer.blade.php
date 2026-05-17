@@ -1,77 +1,116 @@
-<footer class="footer-ramai text-white pt-5">
+<footer class="py-5 mt-5 border-top" style="background: var(--surface); border-color: var(--border) !important;">
     <div class="container">
-        <div class="row gy-4">
-            <!-- KIRI : BRAND -->
-            <div class="col-lg-4 col-md-6">
-                <h4 class="fw-bold mb-3">SatSetSolution</h4>
-                <p class="text-white-50">
-                    SatSetSolution adalah layanan jasa digital yang membantu
-                    UMKM, perusahaan, dan personal dalam pembuatan website,
-                    aplikasi, serta sistem digital sesuai kebutuhan.
+        <div class="row gy-5">
+            <!-- BRAND -->
+            <div class="col-lg-4 col-md-12">
+                <a class="navbar-brand fw-bold fs-3 mb-3 d-block" href="{{ url('/') }}">
+                    <span class="text-gradient">SatSet</span>Solution
+                </a>
+                <p class="text-muted mb-4" style="max-width: 350px;">
+                    Partner digital professional yang siap membantu mewujudkan ide-ide brilian kamu menjadi kenyataan. SatSet Beres! 🚀
                 </p>
-                <p class="text-white-50">
-                    Kami mengutamakan kecepatan, kualitas, dan transparansi dalam setiap project.
-                </p>
-                <p class="text-white-50 small mt-3">
-                    Jasa website dan aplikasi profesional yang fleksibel untuk berbagai kebutuhan digital di Indonesia.
-                </p>
+                <div class="d-flex gap-2 flex-wrap">
+                    <a target="_blank" href="https://instagram.com/ilham_teguhriyadi" class="btn btn-primary-soft rounded-3 p-2 px-3 social-btn">
+                        <i class="bi bi-instagram fs-5"></i>
+                    </a>
+                    <a target="_blank" href="https://x.com/HameTR29" class="btn btn-primary-soft rounded-3 p-2 px-3 social-btn">
+                        <i class="bi bi-twitter-x fs-5"></i>
+                    </a>
+                    <a target="_blank" href="#" class="btn btn-primary-soft rounded-3 p-2 px-3 social-btn">
+                        <i class="bi bi-linkedin fs-5"></i>
+                    </a>
+                    <a target="_blank" href="mailto:ilham.teguh55@gmail.com" class="btn btn-primary-soft rounded-3 p-2 px-3 social-btn">
+                        <i class="bi bi-envelope fs-5"></i>
+                    </a>
+                </div>
             </div>
 
-            <!-- TENGAH : MENU -->
-            <div class="col-lg-4 col-md-6">
-                <h5 class="fw-bold mb-3">Menu</h5>
-                <ul class="list-unstyled footer-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#tentang">Tentang Kami</a></li>
-                    <li><a href="#paket">Paket Harga</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#kontak">Kontak</a></li>
+            <!-- QUICK LINKS -->
+            <div class="col-lg-2 col-md-3 col-6">
+                <h6 class="fw-bold mb-4">Layanan</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-muted text-decoration-none hover-primary">Website Mahasiswa</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none hover-primary">Company Profile</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none hover-primary">Sistem Informasi</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none hover-primary">Landing Page</a></li>
                 </ul>
             </div>
 
-            <!-- KANAN : SOSIAL -->
-            <div class="col-lg-4 col-md-12">
-                <h5 class="fw-bold mb-3">Ikuti Kami</h5>
-                <p class="text-white-50">
-                    Dapatkan update seputar project, tips digital, dan promo terbaru dari kami.
-                </p>
+            <div class="col-lg-2 col-md-3 col-6">
+                <h6 class="fw-bold mb-4">Perusahaan</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#tentang" class="text-muted text-decoration-none hover-primary">Tentang Kami</a></li>
+                    <li><a href="#paket" class="text-muted text-decoration-none hover-primary">Paket Harga</a></li>
+                    <li><a href="#blog" class="text-muted text-decoration-none hover-primary">Blog & Artikel</a></li>
+                    <li><a href="#faq" class="text-muted text-decoration-none hover-primary">FAQ</a></li>
+                </ul>
+            </div>
 
-                <div class="d-flex gap-3 fs-4 mt-3">
-                    <a target="_blank" href="https://wa.me/6281214707143"
-                        rel="noopener noreferrer"
-                        aria-label="WhatsApp SatSetSolution"
-                        class="footer-icon wa">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-
-                    <a target="_blank" href="https://www.instagram.com/ilham_teguhriyadi/"
-                        rel="noopener noreferrer"
-                        aria-label="Instagram SatSetSolution"
-                        class="footer-icon ig">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-
-                    <a target="_blank" href="https://x.com/HameTR29"
-                        rel="noopener noreferrer"
-                        aria-label="X (Twitter) SatSetSolution"
-                        class="footer-icon tw">
-                        <i class="bi bi-twitter"></i>
-                    </a>
-
-                    <a target="_blank" href="mailto:ilham.teguh55@gmail.com"
-                        rel="noopener noreferrer"
-                        aria-label="Email SatSetSolution"
-                        class="footer-icon mail">
-                        <i class="bi bi-envelope"></i>
-                    </a>
+            <!-- CONTACT -->
+            <div class="col-lg-4 col-md-6">
+                <h6 class="fw-bold mb-4">Hubungi Kami</h6>
+                <p class="text-muted mb-4">Punya pertanyaan atau butuh penawaran khusus? Jangan ragu untuk menyapa!</p>
+                <div class="footer-contact-card p-3 rounded-4 border shadow-sm" style="background: var(--bg); border-color: var(--border) !important;">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-primary text-white p-2 rounded-3 px-3">
+                            <i class="bi bi-whatsapp fs-4"></i>
+                        </div>
+                        <div>
+                            <p class="small text-muted mb-0">Konsultasi via WhatsApp</p>
+                            <h6 class="fw-bold mb-0 text-text">+62 812-1470-7143</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <hr class="border-light my-4" />
-
-        <div class="text-center text-white-50 pb-3">
-            © 2025 <strong>SatSetSolution.my.id</strong> — All Rights Reserved
+        <div class="pt-5 mt-5 border-top text-center" style="border-color: var(--border) !important;">
+            <p class="text-muted mb-0">
+                &copy; {{ date('Y') }} <strong>SatSetSolution</strong>. Dibuat dengan <i class="bi bi-heart-fill text-danger mx-1"></i> untuk Mahasiswa & UMKM Indonesia.
+            </p>
         </div>
     </div>
 </footer>
+
+<style>
+    .hover-primary:hover {
+        color: var(--primary) !important;
+        padding-left: 5px;
+        transition: 0.3s ease;
+    }
+    .social-btn {
+        transition: 0.3s ease;
+        border: 1px solid transparent;
+    }
+    .social-btn:hover {
+        background: var(--primary) !important;
+        color: white !important;
+        transform: translateY(-3px);
+    }
+    .footer-contact-card {
+        transition: 0.3s ease;
+    }
+    .footer-contact-card:hover {
+        border-color: var(--primary) !important;
+        transform: scale(1.02);
+    }
+    .text-text {
+        color: var(--text);
+    }
+
+    @media (max-width: 768px) {
+        footer {
+            text-align: center;
+        }
+        footer .d-flex {
+            justify-content: center;
+        }
+        footer p {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hover-primary:hover {
+            padding-left: 0;
+        }
+    }
+</style>

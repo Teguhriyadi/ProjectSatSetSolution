@@ -1,77 +1,91 @@
-<section id="kontak" class="contact-section py-5">
+<section id="kontak" class="py-5">
     <div class="container">
         <div class="row align-items-center g-5">
             <!-- KIRI : INFO -->
             <div class="col-lg-5" data-aos="fade-right">
-                <span class="contact-badge mb-3">💬 Kontak Kami</span>
-                <h2 class="fw-bold mb-3">
-                    Masih Bingung?<br />
-                    Konsultasi Dulu Aja 👋
+                <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill mb-3">💬 Konsultasi</span>
+                <h2 class="fw-bold h1 mb-4">
+                    Punya Ide Brilian?<br />
+                    Mari <span class="text-gradient">Wujudkan!</span>
                 </h2>
-                <p class="text-muted">
+                <p class="text-muted lead mb-4">
                     Konsultasi <strong>GRATIS</strong> tanpa komitmen. Ceritakan kebutuhan kamu,
-                    mulai dari website, aplikasi, hingga sistem digital — kami bantu cari solusi terbaik.
+                    kami siap bantu cari solusi digital yang paling pas buat kamu.
                 </p>
 
-                <ul class="list-unstyled mt-4 contact-list">
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        Fast respon (08.00 – 23.00 WIB)
-                    </li>
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        Aman & transparan
-                    </li>
-                    <li>
-                        <i class="bi bi-check-circle-fill"></i>
-                        Cocok untuk bisnis, kampus, maupun personal
-                    </li>
-                </ul>
+                <div class="d-flex flex-column gap-3 mb-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-success-soft p-2 rounded-circle">
+                            <i class="bi bi-whatsapp text-success fs-5"></i>
+                        </div>
+                        <span>Fast Respon (08.00 – 23.00 WIB)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-primary-soft p-2 rounded-circle">
+                            <i class="bi bi-shield-lock text-primary fs-5"></i>
+                        </div>
+                        <span>Aman & 100% Rahasia</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-info-soft p-2 rounded-circle">
+                            <i class="bi bi-people text-info fs-5"></i>
+                        </div>
+                        <span>Sudah 50+ Klien Puas</span>
+                    </div>
+                </div>
 
-                <div class="mt-4 d-flex gap-3 flex-wrap">
+                <div class="d-flex gap-3 flex-wrap">
                     <a target="_blank"
                         href="https://wa.me/6281214707143?text=Halo%20SatSetSolution,%20saya%20mau%20konsultasi"
-                        rel="noopener noreferrer" class="btn btn-wa btn-lg">
-                        <i class="bi bi-whatsapp"></i> Chat WhatsApp
+                        rel="noopener noreferrer" class="btn btn-space">
+                        <i class="bi bi-whatsapp me-2"></i> Chat Sekarang
                     </a>
-
-                    <a href="mailto:ilham.teguh55@gmail.com" class="btn btn-outline-primary btn-lg">
-                        <i class="bi bi-envelope"></i> Email
+                    <a href="mailto:ilham.teguh55@gmail.com" class="btn btn-outline-primary rounded-4 px-4">
+                        <i class="bi bi-envelope me-2"></i> Email Kami
                     </a>
                 </div>
             </div>
 
             <!-- KANAN : CARD -->
             <div class="col-lg-7" data-aos="zoom-in">
-                <div class="contact-card p-4 p-lg-5">
-                    <h4 class="fw-bold mb-3">🚀 Siap Mulai Project?</h4>
+                <div class="card-modern p-4 p-lg-5 shadow-lg border-primary">
+                    <h4 class="fw-bold mb-3">Kirim Pesan Cepat 🚀</h4>
                     <p class="text-muted mb-4">
-                        Klik WhatsApp atau isi form singkat di bawah. Tim kami akan segera menghubungi kamu.
+                        Isi form di bawah, kami akan segera merespon via WhatsApp.
                     </p>
 
                     <form id="contactForm" autocomplete="on">
-                        <div class="row g-3">
+                        <div class="row g-4">
                             <div class="col-md-6">
-                                <input id="contactName" name="name" type="text" class="form-control"
-                                    placeholder="Nama" autocomplete="name" required />
+                                <div class="form-floating">
+                                    <input id="contactName" name="name" type="text" class="form-control bg-transparent"
+                                        placeholder="Nama" autocomplete="name" required />
+                                    <label for="contactName">Nama Lengkap</label>
+                                </div>
                             </div>
                             <div class="col-md-6">
-                                <input id="contactWhatsapp" name="whatsapp" type="tel" class="form-control"
-                                    placeholder="No WhatsApp aktif" autocomplete="tel" required />
+                                <div class="form-floating">
+                                    <input id="contactWhatsapp" name="whatsapp" type="tel" class="form-control bg-transparent"
+                                        placeholder="No WhatsApp" autocomplete="tel" required />
+                                    <label for="contactWhatsapp">Nomor WhatsApp</label>
+                                </div>
                             </div>
                             <div class="col-12">
-                                <textarea id="contactMessage" name="message" rows="4" class="form-control"
-                                    placeholder="Ceritakan kebutuhan / project kamu..." required></textarea>
+                                <div class="form-floating">
+                                    <textarea id="contactMessage" name="message" class="form-control bg-transparent"
+                                        placeholder="Pesan" style="height: 120px" required></textarea>
+                                    <label for="contactMessage">Ceritakan Kebutuhanmu...</label>
+                                </div>
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-glow w-100 mt-4">
-                            Kirim & Konsultasi 🚀
+                        <button type="submit" class="btn btn-space w-100 mt-4 py-3">
+                            Kirim & Konsultasi Sekarang 🚀
                         </button>
 
-                        <small class="d-block text-center text-muted mt-3">
-                            *Data kamu aman & tidak disebarkan
-                        </small>
+                        <p class="text-center text-muted mt-3 mb-0 small">
+                            <i class="bi bi-lock-fill me-1"></i> Data kamu aman bersama kami.
+                        </p>
                     </form>
                 </div>
             </div>
@@ -79,49 +93,43 @@
     </div>
 </section>
 
-<section class="container py-5">
-    <h2 class="fw-bold">
-        Jasa Website, Aplikasi & Sistem Digital Profesional di Indonesia
-    </h2>
+<style>
+    .bg-success-soft { background: rgba(37, 211, 102, 0.1); }
+    .bg-info-soft { background: rgba(0, 210, 255, 0.1); }
 
-    <p>
-        SatSetSolution adalah penyedia jasa pembuatan website, aplikasi, dan sistem digital
-        yang membantu <strong>UMKM, perusahaan, mahasiswa, hingga personal brand</strong>
-        dalam mengembangkan kebutuhan digital secara cepat, rapi, dan profesional.
-    </p>
+    .form-control {
+        border-radius: 12px;
+        border: 1px solid var(--border);
+    }
+    .form-control:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 0.25rem var(--primary-soft);
+        background: transparent;
+    }
+</style>
 
-    <p>
-        Kami melayani berbagai kebutuhan mulai dari landing page, company profile,
-        aplikasi custom, hingga sistem internal bisnis. Semua dikerjakan dengan
-        proses yang transparan, fleksibel, dan bisa disesuaikan dengan kebutuhan.
-    </p>
+<script>
+    const contactForm = document.querySelector("#contactForm");
 
-    <div class="row g-3 mt-3">
-        <div class="col-md-4">
-            <div class="card h-100 p-4">
-                <h3 class="h5 fw-bold">Jasa Website</h3>
-                <p class="text-muted mb-0">
-                    Landing page, company profile, hingga website custom untuk bisnis dan personal.
-                </p>
-            </div>
-        </div>
+    if (contactForm) {
+        contactForm.addEventListener("submit", (e) => {
+            e.preventDefault();
 
-        <div class="col-md-4">
-            <div class="card h-100 p-4">
-                <h3 class="h5 fw-bold">Jasa Aplikasi</h3>
-                <p class="text-muted mb-0">
-                    Sistem aplikasi berbasis web untuk operasional bisnis maupun kebutuhan kampus.
-                </p>
-            </div>
-        </div>
+            const name = document.querySelector("#contactName")?.value?.trim() || "";
+            const whatsapp = document.querySelector("#contactWhatsapp")?.value?.trim() || "";
+            const message = document.querySelector("#contactMessage")?.value?.trim() || "";
 
-        <div class="col-md-4">
-            <div class="card h-100 p-4">
-                <h3 class="h5 fw-bold">Jasa Sistem Custom</h3>
-                <p class="text-muted mb-0">
-                    Pembuatan sistem sesuai kebutuhan, mulai dari dashboard hingga integrasi data.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+            const composed = [
+                    "Halo SatSetSolution, saya mau konsultasi.",
+                    name ? `Nama: ${name}` : "",
+                    whatsapp ? `WhatsApp: ${whatsapp}` : "",
+                    message ? `Kebutuhan: ${message}` : "",
+                ]
+                .filter(Boolean)
+                .join("\n");
+
+            const url = `https://wa.me/6281214707143?text=${encodeURIComponent(composed)}`;
+            window.open(url, "_blank", "noopener,noreferrer");
+        });
+    }
+</script>

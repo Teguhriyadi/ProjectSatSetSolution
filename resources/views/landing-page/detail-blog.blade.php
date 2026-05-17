@@ -1,5 +1,9 @@
 @extends('landing-page.app')
 
+@section('title', $blog->title . ' | SatSetSolution Blog')
+@section('description', \Illuminate\Support\Str::limit(strip_tags($blog->content), 160))
+@section('keywords', implode(', ', $blog->tags->pluck('tag.name')->toArray()) . ', SatSetSolution, ' . $blog->category->category->name)
+
 @section('css')
     <style>
         .blog-content h2 {

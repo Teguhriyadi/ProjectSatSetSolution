@@ -1,110 +1,80 @@
-<section id="tentang" class="about-section py-5">
+<section id="tentang" class="py-5">
     <div class="container">
-        <!-- HEADER -->
-        <div class="text-center mb-5" data-aos="fade-up">
-            <span class="about-badge">👋 Tentang Kami</span>
-            <h2 class="fw-bold mt-3">Kenalan Dulu Sama SatSetSolution</h2>
-            <p class="text-muted">
-                Partner digital yang siap bantu berbagai kebutuhan kamu 🚀
-            </p>
-        </div>
-
         <div class="row align-items-center g-5">
-            <!-- KIRI : IMAGE -->
             <div class="col-lg-6" data-aos="fade-right">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
-                        alt="Jasa Website dan Aplikasi Profesional Indonesia"
-                        class="img-fluid rounded-4 shadow"
-                        loading="lazy"
-                        decoding="async" />
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800"
+                        alt="Tentang SatSetSolution"
+                        class="img-fluid rounded-5 shadow-lg" />
+                    <div class="position-absolute top-0 start-0 bg-primary text-white p-3 rounded-4 shadow-lg m-n3 d-none d-md-block">
+                        <h4 class="fw-bold mb-0">5+</h4>
+                        <small>Tahun Pengalaman</small>
+                    </div>
                 </div>
             </div>
 
-            <!-- KANAN : CONTENT -->
             <div class="col-lg-6" data-aos="fade-left">
-                <h3 class="fw-bold mb-3">
-                    Solusi Digital Cepat, Aman & Profesional
-                </h3>
-
-                <p class="text-muted">
-                    <strong>SatSetSolution adalah jasa pembuatan website, aplikasi, dan sistem digital</strong>
-                    yang membantu <strong>UMKM, perusahaan, mahasiswa, hingga personal brand</strong>
-                    dalam mewujudkan kebutuhan digital secara cepat dan rapi.
+                <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill mb-3">👋 Mengenal Kami</span>
+                <h2 class="fw-bold h1 mb-4">Solusi Digital & Akademik yang <span class="text-gradient">Responsif!</span></h2>
+                
+                <p class="text-muted lead mb-4">
+                    SatSetSolution adalah mitra strategis bagi UMKM, perusahaan, dan akademisi dalam menghadapi tantangan era digital. Kami berkomitmen memberikan layanan yang tidak hanya cepat, tapi juga berkualitas tinggi dan tepat sasaran.
                 </p>
 
-                <p class="text-muted">
-                    Mulai dari konsultasi, desain, development, hingga revisi —
-                    semua kami handle dengan proses yang <u>simple, transparan, dan tanpa ribet</u>.
-                </p>
-
-                <!-- POINT -->
-                <div class="about-points mt-4">
-                    <div class="point">
-                        <span>🚀</span>
-                        <div>
-                            <strong>Fast Respon</strong>
-                            <p>Tim responsif & siap bantu kapan pun dibutuhkan.</p>
+                <div class="row g-4 mb-4">
+                    <div class="col-md-6">
+                        <div class="d-flex gap-3">
+                            <div class="bg-primary-soft p-2 rounded-3 h-100">
+                                <i class="bi bi-rocket-takeoff-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Skalabilitas Bisnis</h6>
+                                <p class="small text-muted mb-0">Website UMKM & Company Profile yang dirancang untuk pertumbuhan.</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="point">
-                        <span>💼</span>
-                        <div>
-                            <strong>Fleksibel untuk Semua</strong>
-                            <p>Cocok untuk bisnis, kampus, maupun kebutuhan personal.</p>
+                    <div class="col-md-6">
+                        <div class="d-flex gap-3">
+                            <div class="bg-primary-soft p-2 rounded-3 h-100">
+                                <i class="bi bi-mortarboard-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Keunggulan Akademik</h6>
+                                <p class="small text-muted mb-0">Bimbingan riset dan mentoring IT profesional bagi mahasiswa.</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="point">
-                        <span>🔄</span>
-                        <div>
-                            <strong>Revisi Fleksibel</strong>
-                            <p>Kami pastikan hasil sesuai dengan kebutuhan kamu.</p>
+                    <div class="col-md-6">
+                        <div class="d-flex gap-3">
+                            <div class="bg-primary-soft p-2 rounded-3 h-100">
+                                <i class="bi bi-shield-lock-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Integritas Tinggi</h6>
+                                <p class="small text-muted mb-0">Keamanan data klien dan kerahasiaan project adalah prioritas utama.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex gap-3">
+                            <div class="bg-primary-soft p-2 rounded-3 h-100">
+                                <i class="bi bi-gem text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Kualitas Premium</h6>
+                                <p class="small text-muted mb-0">Hasil kerja standar industri dengan estetika modern & profesional.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- CTA -->
-                <div class="mt-4 d-flex gap-3 flex-wrap">
-                    <a href="#paket" class="btn btn-glow"> Lihat Paket </a>
-                    <a target="_blank"
-                        href="https://wa.me/6281214707143?text=Halo%20SatSetSolution,%20boleh%20kenalan%20lebih%20lanjut?"
-                        rel="noopener noreferrer"
-                        class="btn btn-outline-primary rounded-pill px-4">
-                        Chat Admin
+                <div class="d-flex gap-3">
+                    <a href="#layanan" class="btn btn-space">
+                        Pelajari Layanan
                     </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- STATS -->
-        <div class="row text-center mt-5 g-4">
-            <div class="col-md-3 col-6" data-aos="zoom-in">
-                <div class="about-stat">
-                    <h2>150+</h2>
-                    <p>Project Beres</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="about-stat">
-                    <h2>50+</h2>
-                    <p>Klien Puas</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
-                <div class="about-stat">
-                    <h2>4+</h2>
-                    <p>Tahun Pengalaman</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
-                <div class="about-stat">
-                    <h2>95%</h2>
-                    <p>Repeat Order</p>
+                    <a target="_blank" href="https://wa.me/6281214707143" class="btn btn-outline-primary rounded-4 px-4">
+                        Konsultasi Gratis
+                    </a>
                 </div>
             </div>
         </div>
