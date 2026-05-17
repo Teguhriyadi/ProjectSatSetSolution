@@ -17,7 +17,7 @@
 
                     <div class="mb-4">
                         <small class="text-muted">Mulai dari</small>
-                        <h2 class="fw-bold text-primary mb-0">Rp 249K</h2>
+                        <h2 class="fw-bold text-primary mb-0">Rp 149K</h2>
                     </div>
 
                     <ul class="list-unstyled mb-4">
@@ -61,7 +61,7 @@
 
                     <div class="mb-4">
                         <small class="text-muted">Mulai dari</small>
-                        <h2 class="fw-bold text-primary mb-0">Rp 749K</h2>
+                        <h2 class="fw-bold text-primary mb-0">Rp 549K</h2>
                     </div>
 
                     <ul class="list-unstyled mb-4">
