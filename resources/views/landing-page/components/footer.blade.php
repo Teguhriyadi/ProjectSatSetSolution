@@ -66,7 +66,7 @@
 
         <div class="pt-5 mt-5 border-top text-center" style="border-color: var(--border) !important;">
             <p class="text-muted mb-0">
-                &copy; {{ date('Y') }} <strong>SatSetSolution</strong>. Dibuat dengan <i class="bi bi-heart-fill text-danger mx-1"></i> untuk Mahasiswa & UMKM Indonesia.
+                &copy; 2025. <strong>SatSetSolution</strong>. Dibuat untuk untuk Mahasiswa & UMKM Indonesia.
             </p>
         </div>
     </div>
