@@ -16,6 +16,11 @@
                             ['q' => 'Bagaimana proses pengerjaan website untuk UMKM?', 'a' => 'Proses kami sangat transparan: dimulai dari konsultasi kebutuhan, desain antarmuka, tahap development, revisi, hingga peluncuran website Anda.'],
                             ['q' => 'Bisa request deadline mepet untuk project korporat?', 'a' => 'Bisa banget! Tim Enterprise kami siap bekerja SatSet dengan dedikasi tinggi untuk mengejar timeline bisnis Anda yang dinamis.'],
                             ['q' => 'Apakah ada jaminan kerahasiaan data klien?', 'a' => 'Sangat aman! Kami menjamin 100% kerahasiaan data bisnis maupun riset akademik Anda melalui kesepakatan internal yang ketat.'],
+                            ['q' => 'Berapa lama pengerjaan jasa pembuatan website UMKM?', 'a' => 'Durasi pengerjaan menyesuaikan kebutuhan. Landing page UMKM umumnya 3–7 hari kerja, sedangkan website bisnis dengan fitur lebih lengkap biasanya 1–3 minggu setelah materi dan kebutuhan disepakati.'],
+                            ['q' => 'Apakah SatSetSolution menyediakan domain dan hosting website?', 'a' => 'Ya. Kami dapat membantu pengadaan domain dan hosting, termasuk setup SSL, email bisnis, dan konfigurasi dasar agar website UMKM atau company profile siap online dengan aman.'],
+                            ['q' => 'Berapa kali revisi desain untuk Company Profile perusahaan?', 'a' => 'Revisi mengikuti paket yang dipilih. Umumnya tersedia revisi desain dan konten agar company profile terlihat profesional, selaras branding, dan siap digunakan untuk presentasi bisnis maupun kebutuhan marketing.'],
+                            ['q' => 'Bagaimana sistem pembayaran dan tahapan kerja project?', 'a' => 'Pembayaran dilakukan bertahap sesuai milestone (DP, progress, pelunasan). Alur kerja kami: konsultasi, perencanaan, desain UI, development, testing, revisi, dan go-live. Semua tahap transparan dan terdokumentasi.'],
+                            ['q' => 'Apakah mentoring IT cocok untuk pemula dan bisa kelas privat?', 'a' => 'Cocok untuk pemula sampai intermediate. Mentoring tersedia privat atau kelompok, materi bisa disesuaikan (web development, dasar pemrograman, atau pendampingan tugas) dengan target yang jelas dan progres terukur.'],
                         ];
                     @endphp
 
