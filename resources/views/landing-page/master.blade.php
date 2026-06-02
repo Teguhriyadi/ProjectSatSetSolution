@@ -93,7 +93,7 @@
                             'Ekspor/Import data (Excel) untuk percepat input',
                             'Multi role (Admin TU, Kepala Sekolah, Orang Tua, Guru) dengan akses terkontrol',
                         ],
-                        'image' => url('/images/Gambar-Dashboard-E-Rapot.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-Dashboard-E-Rapot.png',
                         'tags' => ['Responsive', 'SEO Basic', 'Laravel', 'Microsoft Excel', 'MySQL', 'Rapot Digital', 'Payment Gateway Xendit', 'Pembayaran Digital', 'Grafik Penilaian'],
                     ],
                     [
@@ -106,7 +106,7 @@
                             'Laporan transaksi + ekspor Excel',
                             'Fitur pendukung toko (indent, e-commerce, dll)',
                         ],
-                        'image' => url('/images/Gambar-POS-Janari.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-POS-Janari.png',
                         'tags' => ['Indent', 'Laravel', 'Grafik', 'Stok Barang', 'Microsoft Excel', 'Laporan Transaksi', 'E-Commerce', 'Variant Barang'],
                     ],
                     [
@@ -132,7 +132,7 @@
                             'PWA (ringan, bisa add to home screen)',
                             'Dashboard data sensor (contoh: suhu) mudah dibaca',
                         ],
-                        'image' => url('/images/Gambar-PWA-IOT.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-PWA-IOT.png',
                         'tags' => ['PWA', 'Responsive', 'IoT', 'Laravel', 'MQTT', 'Microsoft Excel', 'Monitoring Suhu'],
                     ],
                     [
@@ -145,7 +145,7 @@
                             'Rekap kehadiran + grafik monitoring',
                             'Ekspor data (Excel) untuk laporan event',
                         ],
-                        'image' => url('/images/Gambar-QR-Code.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-QR-Code.png',
                         'tags' => ['QR Code', 'Event', 'Microsoft Excel', 'Grafik', 'Laravel', 'MySQL', 'Scan QR', 'Validasi Kedatangan Tamu'],
                     ],
                     [
@@ -158,7 +158,7 @@
                             'Pencatatan gejala & laporan kesehatan',
                             'Multi role + dashboard monitoring',
                         ],
-                        'image' => url('/images/Gambar-Web-UKS.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-Web-UKS.png',
                         'tags' => ['Inventory Obat', 'Microsoft Excel', 'Grafik', 'Gejala Kesehatan', 'MySQL', 'Laravel', 'Monitoring Distribusi Obat', 'Multi Role'],
                     ],
                     [
@@ -171,7 +171,7 @@
                             'Absensi + rapor digital terintegrasi',
                             'Multi role untuk admin/pengelola',
                         ],
-                        'image' => url('/images/Gambar-Web-RTQ.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-Web-RTQ.png',
                         'tags' => ['Inventory Obat', 'Microsoft Excel', 'Grafik', 'Gejala Kesehatan', 'MySQL', 'Iuran Santri', 'Data Santri', 'Rapot Digital', 'Monitoring Absensi Siswa', 'Laravel', 'Mobile', 'Website', 'Landing Page', 'Multi Role'],
                     ],
                     [
@@ -184,7 +184,7 @@
                             'Tampilan informatif + grafik ringkas',
                             'Multi role untuk pengelolaan data',
                         ],
-                        'image' => url('/images/Gambar-Web-Proklim.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-Web-Proklim.png',
                         'tags' => ['Monitoring Iklim Cuaca', 'Laravel', 'MySQL', 'Grafik', 'Monitoring Data Penduduk', 'Microsoft Excel', 'Pencatatan Jumlah Penduduk', 'Data Wilayah', 'Multi Role'],
                     ],
                 ];
