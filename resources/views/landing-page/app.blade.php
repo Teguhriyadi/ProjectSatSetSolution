@@ -61,8 +61,14 @@
         }
 
         * {
+            box-sizing: border-box;
             font-family: 'Plus Jakarta Sans', sans-serif;
             transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
         }
 
         h1, h2, h3, .navbar-brand {
@@ -72,8 +78,12 @@
         body {
             background-color: var(--bg);
             color: var(--text);
-            overflow-x: hidden;
             line-height: 1.6;
+        }
+
+        img, svg, video, canvas, iframe {
+            max-width: 100%;
+            height: auto;
         }
 
         /* SPACE THEME ELEMENTS */
@@ -165,8 +175,8 @@
         /* FLOATING WA */
         .wa-float {
             position: fixed;
-            bottom: 30px;
-            right: 30px;
+            bottom: max(18px, env(safe-area-inset-bottom));
+            right: max(18px, env(safe-area-inset-right));
             width: 60px;
             height: 60px;
             background: #25d366;
@@ -202,6 +212,7 @@
             }
             .hero-cta {
                 justify-content: center;
+                flex-wrap: wrap;
             }
         }
 
