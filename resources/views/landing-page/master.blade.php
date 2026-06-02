@@ -119,7 +119,7 @@
                             'Artikel/berita untuk update kegiatan desa',
                             'Statistik penduduk & laporan data wilayah',
                         ],
-                        'image' => url('/images/Gambar-Desa-Merdeka.png'),
+                        'image' => 'https://satsetsolution.my.id/assets/Gambar-Desa-Merdeka.png',
                         'tags' => ['Modern UI', 'Kontak', 'Portofolio', 'Laravel', 'Custom UI', 'Informasi Artikel', 'Branding Desa', 'Laporan Jumlah Penduduk'],
                     ],
                     [
