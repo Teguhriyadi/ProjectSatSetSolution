@@ -19,7 +19,7 @@
     <!-- OPEN GRAPH -->
     <meta property="og:title" content="@yield('title', 'SatSetSolution | Solusi Digital & Akademik Professional')" />
     <meta property="og:description" content="@yield('description', 'Transformasi digital UMKM, branding korporat, dan pendampingan akademik dalam satu pintu. Hasil kerja SatSet, kualitas tetap premium.')" />
-    <meta property="og:image" content="https://satsetsolution.my.id/assets/Logo_SatSetSolutions_Store.png" />
+    <meta property="og:image" content="https://satsetsolution.my.id/assets/Logo_SatSet.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:site_name" content="SatSetSolution" />
