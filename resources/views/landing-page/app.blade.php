@@ -28,10 +28,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SatSetSolution | Solusi Digital & Akademik Professional">
     <meta name="twitter:description" content="Layanan pembuatan website UMKM, branding korporat, dan pendampingan akademik profesional.">
-    <meta name="twitter:image" content="https://satsetsolution.my.id/assets/Logo_SatSetSolutions_Store.png">
+    <meta name="twitter:image" content="https://satsetsolution.my.id/assets/Logo_SatSet.png">
 
     <!-- FAVICON -->
-    <link rel="icon" type="image/png" href="https://satsetsolution.my.id/assets/Logo_SatSetSolutions_Store.png">
+    <link rel="icon" type="image/png" href="https://satsetsolution.my.id/assets/Logo_SatSet.png">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
