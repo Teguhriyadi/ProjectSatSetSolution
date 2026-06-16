@@ -21,7 +21,7 @@
                     </div>
                     <div class="mb-4">
                         <small class="text-muted">Mulai dari</small>
-                        <h2 class="fw-bold text-primary mb-0">Rp 1,5 Jt</h2>
+                        <h2 class="fw-bold text-primary mb-0">Rp 1 Jt</h2>
                     </div>
                     <ul class="list-unstyled mb-4 paket-list">
                         <li class="d-flex align-items-start gap-2">
