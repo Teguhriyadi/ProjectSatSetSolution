@@ -352,7 +352,7 @@
     </style>
 
     <!-- BLOG SECTION -->
-    <section id="blog" class="py-5">
+    {{-- <section id="blog" class="py-5">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
                 <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill mb-3">📝 Insight & Tips</span>
@@ -392,7 +392,7 @@
                 @endforeach
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- PAKET -->
     @include("landing-page.paket")

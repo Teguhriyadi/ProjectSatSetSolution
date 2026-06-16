@@ -8,12 +8,12 @@ class AppController extends Controller
 {
     public function index()
     {
-        $data["blog"] = Post::where("is_active", "1")
-            ->orderBy("published_at", "DESC")
-            ->limit(6)
-            ->get();
+        // $data["blog"] = Post::where("is_active", "1")
+        //     ->orderBy("published_at", "DESC")
+        //     ->limit(6)
+        //     ->get();
 
-        return view("landing-page.master", $data);
+        return view("landing-page.master");
     }
 
     public function dashboard()
